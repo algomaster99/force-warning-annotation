@@ -30,8 +30,23 @@ try {
     }
   }
 
+  problem3 = {
+    message: 'Problem 3',
+    level: 'warning',
+    properties: {
+        title: "<rule is violated>",
+        file: "Main.java",
+        startLine: 346,
+        endLine: 4,
+        startColumn: undefined,
+        endColumn: undefined,
+    }
+  }
+
   core.warning(problem.message, problem.properties);
   core.warning(problem2.message, problem2.properties)
+  core.error(problem3.message, problem3.properties)
+
 
   console.log(`Hello Aman!`);
   const time = (new Date()).toTimeString();
