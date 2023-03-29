@@ -9801,8 +9801,8 @@ try {
     properties: {
         title: "<rule is violated>",
         file: "Main.java",
-        startLine: 2,
-        endLine: 4,
+        startLine: 1,
+        endLine: 3,
         startColumn: 3,
         endColumn: 5,
     }
