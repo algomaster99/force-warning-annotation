@@ -10,10 +10,10 @@ try {
     properties: {
         title: "<rule is violated>",
         file: "Main.java",
-        startLine: 3,
+        startLine: 2,
         endLine: 4,
-        startColumn: undefined,
-        endColumn: undefined,
+        startColumn: 3,
+        endColumn: 5,
     }
   }
 
