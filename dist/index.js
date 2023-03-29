@@ -9795,7 +9795,7 @@ const github = __nccwpck_require__(5438);
 try {
   // `who-to-greet` input defined in action metadata file
 
-  core.warning({
+  problem = {
     message: 'This is a warning',
     level: 'warning',
     properties: {
@@ -9806,7 +9806,9 @@ try {
         startColumn: undefined,
         endColumn: undefined,
     }
-  });
+  }
+
+  core.warning(problem.message, problem.properties);
 
   console.log(`Hello Aman!`);
   const time = (new Date()).toTimeString();
