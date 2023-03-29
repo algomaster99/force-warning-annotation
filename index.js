@@ -5,7 +5,7 @@ try {
   // `who-to-greet` input defined in action metadata file
 
   problem = {
-    message: 'This is a warning',
+    message: 'Problem 1',
     level: 'warning',
     properties: {
         title: "<rule is violated>",
@@ -17,7 +17,21 @@ try {
     }
   }
 
+  problem2 = {
+    message: 'Problem 2',
+    level: 'warning',
+    properties: {
+        title: "<rule is violated>",
+        file: "Main.java",
+        startLine: 1,
+        endLine: 3,
+        startColumn: undefined,
+        endColumn: undefined,
+    }
+  }
+
   core.warning(problem.message, problem.properties);
+  core.warning(problem2.message, problem2.properties)
 
   console.log(`Hello Aman!`);
   const time = (new Date()).toTimeString();
