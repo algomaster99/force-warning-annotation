@@ -11,9 +11,9 @@ try {
         title: "<rule is violated>",
         file: "Main.java",
         startLine: 1,
-        endLine: 3,
-        startColumn: 3,
-        endColumn: 5,
+        endLine: 5,
+        startColumn: undefined,
+        endColumn: undefined,
     }
   }
 
