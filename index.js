@@ -4,7 +4,7 @@ const github = require('@actions/github');
 try {
   // `who-to-greet` input defined in action metadata file
 
-  core.warning({
+  problem = {
     message: 'This is a warning',
     level: 'warning',
     properties: {
@@ -14,7 +14,10 @@ try {
         endLine: 4,
         startColumn: undefined,
         endColumn: undefined,
-  });
+    }
+  }
+
+  core.warning(problem.message, problem.properties);
 
   console.log(`Hello Aman!`);
   const time = (new Date()).toTimeString();
