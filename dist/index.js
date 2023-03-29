@@ -9802,7 +9802,7 @@ try {
         title: "<rule is violated>",
         file: "Main.java",
         startLine: 1,
-        endLine: 5,
+        endLine: 2,
         startColumn: undefined,
         endColumn: undefined,
     }
