@@ -9800,7 +9800,7 @@ try {
     level: 'warning',
     properties: {
         title: "<rule is violated>",
-        file: "<file name>",
+        file: "Main.java",
         startLine: 3,
         endLine: 4,
         startColumn: undefined,
