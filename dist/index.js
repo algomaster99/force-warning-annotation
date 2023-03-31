@@ -9799,7 +9799,7 @@ try {
     message: 'Problem 1',
     level: 'warning',
     properties: {
-        title: "<a href=\"google.com\">Helo</a>",
+        title: "<a href=\"https://www.google.com\">Helo</a>",
         file: "Main.java",
         startLine: 1,
         endLine: 2,
@@ -9812,7 +9812,7 @@ try {
     message: 'Problem 2',
     level: 'warning',
     properties: {
-        title: "[Hello](google.com)",
+        title: "[Hello](https://www.google.com)",
         file: "Main.java",
         startLine: 1,
         endLine: 3,
@@ -9825,7 +9825,7 @@ try {
     message: 'Problem 3',
     level: 'warning',
     properties: {
-        title: "<rule is violated>",
+        title: "https://www.google.com",
         file: "Main.java",
         startLine: 346,
         endLine: 4,
